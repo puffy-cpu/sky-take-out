@@ -22,9 +22,9 @@ public class AliOssUtil {
     /**
      * 文件上传
      *
-     * @param bytes
-     * @param objectName
-     * @return
+     * @param bytes      文件的字节数组
+     * @param objectName OSS 中的对象名，可包含目录
+     * @return 上传成功后的文件访问地址
      */
     public String upload(byte[] bytes, String objectName) {
 
